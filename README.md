@@ -10,7 +10,6 @@
         
         ```cpp
         super(x, y, rotation, fileName);
-        
         				this.x = x;
                 this.y = y;
                 this.rotation = rotation & 3;
@@ -39,3 +38,5 @@
 ## 让所有`Actor`运动起来
 
 - 将所有`Actor object`添加到一个`ArrayList`中（`Player obiect`）。在循环的主体中，只需要遍历`ArrayList`，并为每个条目调用act()方法即可使游戏运行。
+
+011 +
